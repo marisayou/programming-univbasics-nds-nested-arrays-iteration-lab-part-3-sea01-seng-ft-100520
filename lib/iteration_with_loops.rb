@@ -10,9 +10,9 @@ def join_nested_strings(src)
       if src[i][j].class == String
         string += src[i][j]
       end
-      if !(i == src.length-1 && j == src[i].length-1)
-        string += " "
-      end
+      #if !(i == src.length-1 && j == src[i].length-1)
+      #  string += " "
+      #end
       j+=1
     end
     i+=1
