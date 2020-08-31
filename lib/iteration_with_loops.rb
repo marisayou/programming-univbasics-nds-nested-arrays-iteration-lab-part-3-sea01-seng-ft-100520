@@ -7,8 +7,9 @@ def join_nested_strings(src)
   while i < src.length do
     j = 0 
     while j < src[i].length do 
-      if src[i][j] == String
+      if src[i][j].class == String
         string += src[i][j]
+      end
       j+=1
     end
     i+=1
