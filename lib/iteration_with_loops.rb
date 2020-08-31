@@ -15,5 +15,5 @@ def join_nested_strings(src)
     i+=1
   end
   
-  return string.slice(0, -1)
+  return string
 end
